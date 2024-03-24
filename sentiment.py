@@ -31,7 +31,7 @@ import os
 current_dir = os.path.dirname(__file__)
 
 # Construct the path to the pickle file relative to the current script
-pickle_file_path = os.path.join(current_dir, "flipkarrt.pkl")
+pickle_file_path = os.path.join(current_dir, "sentiment.pkl")
 
 # Load the pickle file
 with open(pickle_file_path, "rb") as f:
